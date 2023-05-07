@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout'){
            steps {
                 git credentialsId: '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', 
-                url: 'https://github.com/dolineTchen/Jenkins-Zero-To-Hero.git',
+                url: 'https://github.com/abhishekf5/Jenkins-Zero-To-Hero.git',
                 branch: 'main'
            }
         }
